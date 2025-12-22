@@ -76719,7 +76719,7 @@ $2(a,b){var s,r,q,p=null,o=b.b
 if(o==null)s=p
 else{r=o.b
 q=A.awB(B.a5,p,p,r.y)
-r=A.ahD(new A.uP(q.k2,q.k3,B.Ea,p),p,q,"AwamiNastaliq",r.x,!0)
+r=A.ahD(new A.uP(q.k2,q.k3,B.Ea,p),p,q,"Noto Nastaliq Urdu",r.x,!0)
 s=r}if(s==null)s=A.ahD(p,p,p,p,p,!0)
 return new A.nM(new A.Ry(b,p),new A.aaG(),"Bible Stories",s,B.uc,B.To,B.Op,!0,p)},
 $S:511}
@@ -84130,7 +84130,7 @@ B.Eu=new A.o(!0,null,null,null,null,null,null,B.bj,null,null,null,null,null,null
 B.IA=new A.J(0.8156862745098039,1,0,0,B.i)
 B.a0S=new A.ah9(1,"double")
 B.a2w=new A.o(!0,B.IA,null,"monospace",null,null,48,B.jN,null,null,null,null,null,null,null,null,null,B.En,B.mF,B.a0S,null,"fallback style; consider putting your text in a Material",null,null,null,null)
-B.ca=new A.o(!0,null,null,"AwamiNastaliq",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.ca=new A.o(!0,null,null,"Noto Nastaliq Urdu",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a1A=new A.o(!1,null,null,null,null,null,112,B.fw,null,null,null,B.N,null,null,null,null,null,null,null,null,null,"dense displayLarge 2014",null,null,null,null)
 B.a3K=new A.o(!1,null,null,null,null,null,56,B.r,null,null,null,B.N,null,null,null,null,null,null,null,null,null,"dense displayMedium 2014",null,null,null,null)
 B.a13=new A.o(!1,null,null,null,null,null,45,B.r,null,null,null,B.N,null,null,null,null,null,null,null,null,null,"dense displaySmall 2014",null,null,null,null)
