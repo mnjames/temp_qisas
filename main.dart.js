@@ -77216,14 +77216,14 @@ $1(a){var s
 try{this.a.d.ks()}catch(s){}},
 $S:5}
 A.amK.prototype={
-$0(){$.aE0().fj(new A.ag2("\u0645\u06cc\u0759\u06d2 \u062e\u06cc\u0627\u0644 \u0648\u0650\u0686 \u0627\u06cc\u06c1 \u0627\u06cc\u067e \u067b\u06c1\u064f\u0648\u06ba \u0686\u0646\u065a\u06b3\u06cc \u06c1\u06d2\u06d4 \u062a\u064f\u0633\u0651\u0627\u06ba \u0648\u06cc \u0627\u0650\u06cc\u06a9\u064f\u0648\u06ba \u0627\u0650\u0633\u062a\u0650\u0639\u0645\u0627\u0644 \u06a9\u0631\u0648! https://play.google.com/store/apps/developer?id=%D8%A7%D9%90%D8%AF%D8%A7%D8%B1%DB%82+%D9%86%D9%8F%D9%88%D8%B1%D9%90+%DB%81%D9%90%D8%AF%D8%A7%DB%8C%D8%AA"))
+$0(){$.aE0().fj(new A.ag2("\u0645\u06cc\u0759\u06d2 \u062e\u06cc\u0627\u0644 \u0648\u0650\u0686 \u0627\u06cc\u06c1 \u0627\u06cc\u067e \u067b\u06c1\u064f\u0648\u06ba \u0686\u0646\u065a\u06b3\u06cc \u06c1\u06d2\u06d4 \u062a\u064f\u0633\u0651\u0627\u06ba \u0648\u06cc \u0627\u0650\u06cc\u06a9\u064f\u0648\u06ba \u0627\u0650\u0633\u062a\u0650\u0639\u0645\u0627\u0644 \u06a9\u0631\u0648! https://play.google.com/store/apps/developer?id=\u0627\u0650\u062f\u0627\u0631\u06c2+\u0646\u064f\u0648\u0631\u0650+\u06c1\u0650\u062f\u0627\u06cc\u062a"))
 A.jZ(this.a).dA()},
 $S:0}
 A.amL.prototype={
 $0(){var s=0,r=A.t(t.H),q=this
 var $async$$0=A.u(function(a,b){if(a===1)return A.p(b,r)
 for(;;)switch(s){case 0:s=2
-return A.j(A.Ze(A.d4("https://play.google.com/store/apps/developer?id=%D8%A7%D9%90%D8%AF%D8%A7%D8%B1%DB%82+%D9%86%D9%8F%D9%88%D8%B1%D9%90+%DB%81%D9%90%D8%AF%D8%A7%DB%8C%D8%AA",0,null)),$async$$0)
+return A.j(A.Ze(A.d4("https://play.google.com/store/apps/developer?id=\u0627\u0650\u062f\u0627\u0631\u06c2+\u0646\u064f\u0648\u0631\u0650+\u06c1\u0650\u062f\u0627\u06cc\u062a",0,null)),$async$$0)
 case 2:A.jZ(q.a).dA()
 return A.q(null,r)}})
 return A.r($async$$0,r)},
