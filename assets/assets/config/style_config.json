@@ -1,6 +1,6 @@
 {
   "header": {
-    "fontSize": 28,
+    "fontSize": 24,
     "fontWeight": "bold",
     "color": "#083F0E",
     "lineHeight": 1.5
@@ -52,6 +52,5 @@
   "backgroundColor": "#F2E8D8",
   "cardColor": "#E9D8BA",
   "primaryColor": "#083F0E",
-  "primaryDarkColor": "#002000",
   "baseFontSize": 18
 }
