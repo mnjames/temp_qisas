@@ -2,26 +2,26 @@
   "header": {
     "fontSize": 28,
     "fontWeight": "bold",
-    "color": "#2E7D32",
+    "color": "#083F0E",
     "lineHeight": 1.5
   },
   "tocItems": {
     "fontSize": 22,
     "fontWeight": "bold",
-    "color": "#388E3C",
-    "lineHeight": 1.8
+    "color": "#083F0E",
+    "lineHeight": 2.1
   },
   "mainTitle": {
     "fontSize": 40,
     "fontWeight": "bold",
-    "color": "#388E3C",
+    "color": "#083F0E",
     "lineHeight": 1.8
   },
   "sectionTitle": {
     "fontSize": 22,
     "fontWeight": "bold",
-    "color": "#1B5E20",
-    "lineHeight": 1.3
+    "color": "#083F0E",
+    "lineHeight": 2.1
   },
   "paragraph": {
     "fontSize": 18,
@@ -39,17 +39,19 @@
   "chapter": {
     "fontSize": 24,
     "fontWeight": "bold",
-    "color": "#1B5E20",
+    "color": "#083F0E",
     "lineHeight": 1.3
   },
   "verse": {
     "fontSize": 14,
     "fontWeight": "bold",
-    "color": "#43A047",
+    "color": "#2E5E1F",
     "lineHeight": 1.2
   },
-  "highlightColor": "#C1F2A5",
+  "highlightColor": "#90C73E",
   "backgroundColor": "#F2E8D8",
-  "primaryColor": "#4CAF50",
+  "cardColor": "#E9D8BA",
+  "primaryColor": "#083F0E",
+  "primaryDarkColor": "#002000",
   "baseFontSize": 18
 }
