@@ -2,25 +2,25 @@
   "header": {
     "fontSize": 24,
     "fontWeight": "bold",
-    "color": "#083F0E",
+    "color": "#1E3D6B",
     "lineHeight": 1.5
   },
   "tocItems": {
     "fontSize": 22,
     "fontWeight": "bold",
-    "color": "#083F0E",
+    "color": "#1E3D6B",
     "lineHeight": 2.1
   },
   "mainTitle": {
     "fontSize": 40,
     "fontWeight": "bold",
-    "color": "#083F0E",
+    "color": "#1E3D6B",
     "lineHeight": 1.8
   },
   "sectionTitle": {
     "fontSize": 22,
     "fontWeight": "bold",
-    "color": "#083F0E",
+    "color": "#1E3D6B",
     "lineHeight": 2.1
   },
   "paragraph": {
@@ -33,24 +33,24 @@
     "fontSize": 18,
     "fontWeight": "normal",
     "fontStyle": "italic",
-    "color": "#424242",
+    "color": "#49565E",
     "lineHeight": 1.9
   },
   "chapter": {
     "fontSize": 24,
     "fontWeight": "bold",
-    "color": "#083F0E",
+    "color": "#1E3D6B",
     "lineHeight": 1.3
   },
   "verse": {
     "fontSize": 14,
     "fontWeight": "bold",
-    "color": "#2E5E1F",
+    "color": "#2E5E7A",
     "lineHeight": 1.2
   },
-  "highlightColor": "#90C73E",
-  "backgroundColor": "#F2E8D8",
-  "cardColor": "#E9D8BA",
-  "primaryColor": "#083F0E",
+  "highlightColor": "#D6E4EF",
+  "backgroundColor": "#EBF2F8",
+  "cardColor": "#D6E4EF",
+  "primaryColor": "#1E3D6B",
   "baseFontSize": 18
 }

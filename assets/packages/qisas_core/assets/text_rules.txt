@@ -1,0 +1,95 @@
+# =============================================================================
+# text_rules.txt — find/replace rules applied to every app's story text
+# =============================================================================
+#
+# This file is a bundled asset of qisas_core, so a SINGLE copy is shared by all
+# apps (qisas, women_of_faith, ...).
+#
+# These rules are applied AT RUNTIME as each story is loaded from the app bundle
+# (qisas_core/lib/book/library_loader.dart). The original source files in
+# apps/<app>/assets/texts/*.txt are NEVER modified — only what the app displays
+# is transformed. Edit this file and hot-restart (R) to see changes.
+#
+# To preview match counts without launching the app, or to permanently bake the
+# rules into the source .txt files, use the optional CLI:
+#   fvm dart run tools/apply_text_rules.dart            # dry run: preview only
+#   fvm dart run tools/apply_text_rules.dart --write    # rewrite source files
+#   fvm dart run tools/apply_text_rules.dart --app=qisas # one app only
+#
+# -----------------------------------------------------------------------------
+# How to write a rule
+# -----------------------------------------------------------------------------
+# Each rule is a block of lines. A blank line separates one rule from the next.
+#
+#   find:    <regex pattern>      (required)
+#   replace: <replacement text>   (required — leave blank to delete the match)
+#   flags:   ims                  (optional, see below)
+#   name:    short description    (optional, shown in the report)
+#
+#  * find: is a REGEX. So \s \d \w \b are metacharacters, NOT literal text:
+#       \s  = whitespace        \d = digit
+#       \w  = word char         \b = word boundary
+#    To match a LITERAL backslash (e.g. a USFM marker) you DOUBLE it:
+#       \\s = the USFM section marker "\s"   (\s alone = whitespace!)
+#       \\p = the USFM paragraph marker "\p" (\p alone = the letter p)
+#    To match a leading/trailing space in the pattern use \s or [ ].
+#  * IMPORTANT: \w and \d are ASCII-only — they do NOT match Arabic/Saraiki
+#    letters. To match "any letter" use \p{L} together with the u flag, e.g.
+#       find: (\p{L})ں(\p{L})    flags: u
+#  * replace: is LITERAL text, NOT a regex. Backslashes stay as-is, so \p in
+#    replace: outputs \p (no doubling needed). Only $ is special:
+#       $1 $2 ...  capture groups     ${name}  named group
+#       $0 or $&   the whole match    $$       a literal $
+#  * Values are trimmed of surrounding spaces. To keep a leading/trailing space
+#    in the replacement, wrap it in double quotes:
+#       replace: " "   -> one space        replace: ""  -> delete the match
+#    Inside quotes these escapes are interpreted (anything else stays literal):
+#       \n  \t  \"  \\        \xHH   \uHHHH   \u{H...}
+#    e.g. replace: "\u00A0" inserts a non-breaking space (NBSP).
+#  * Replacement is GLOBAL by default (every occurrence in the file).
+#  * Rules run TOP-TO-BOTTOM; each rule sees the output of the previous ones.
+#  * Lines starting with # are comments. Comment out a rule to disable it.
+#
+#  flags letters:
+#    i = case-insensitive   m = ^/$ match line starts/ends
+#    s = . matches newlines  u = full-unicode mode
+#
+# -----------------------------------------------------------------------------
+# Examples (commented out — uncomment / copy to use)
+# -----------------------------------------------------------------------------
+#
+# # Collapse runs of spaces into one (note the quoted single-space replacement)
+# find: [ ]{2,}
+# replace: " "
+# name: collapse double spaces
+#
+# # Remove any whitespace before the Urdu full stop "۔"
+# find: \s+۔
+# replace: ۔
+# name: no space before full stop
+#
+# # Force a single space between an honorific and a name (capture groups)
+# find: (حضرت)\s+(آدم)
+# replace: $1 $2
+# name: single space between honorific and name
+#
+# =============================================================================
+# ADD YOUR RULES BELOW
+# =============================================================================
+
+# Noon Ghunna -> noon + small-v: only when a letter is on BOTH sides
+# (\w would never match here because \w is ASCII-only; \p{L}+flag u = any letter)
+find: (?<=\p{L})ں(?=\p{L})
+replace: نٚ
+flags: u
+name: replace noon ghunna
+
+# "+" and "~" each become a non-breaking space (NBSP, U+00A0).
+# "+" is a regex metacharacter, so it is escaped as \+ in find:.
+find: \+
+replace: "\u00A0"
+name: plus to NBSP
+
+find: ~
+replace: "\u00A0"
+name: tilde to NBSP

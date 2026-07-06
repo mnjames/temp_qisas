@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "288c6641419328964dc3269f18ac0c94",
-"assets/AssetManifest.bin.json": "c21ed1d5de247e0312d810e5f3b65f33",
+const RESOURCES = {"assets/AssetManifest.bin": "d66d28d593cf74c9e44d947945abd7e5",
+"assets/AssetManifest.bin.json": "bbc1a1d7ad2890d071b3ac96497318ca",
 "assets/assets/audio/C01-04-YQB-01-timing.txt": "f9d6078b1e14644dd634b3d8040f9e49",
 "assets/assets/audio/C01-04-YQB-02-timing.txt": "997b8d93510ced4d83512721ab76b374",
 "assets/assets/audio/C01-04-YQB-03-timing.txt": "b28f4ff186d559c4926b1c2a01790858",
@@ -260,7 +260,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "288c6641419328964dc3269f18ac0c94
 "assets/assets/audio/C02-03-IBR-28-timing.txt": "1b1ee30d0b1a7e050e99e9fb12947a6e",
 "assets/assets/audio/C02-03-IBR-29-timing.txt": "d1566c2a594ab049d19e50e792183e35",
 "assets/assets/config/audio_manifest.json": "fe2f6de785c9e71a42e3c237d887c246",
-"assets/assets/config/style_config.json": "6a6959fad3b3fe849443c3d1c3efb368",
+"assets/assets/config/style_config.json": "f9090f9cf0637f06469d7a3b96139e1e",
 "assets/assets/fonts/AwamiNastaliq-Regular.ttf": "5377c6dce07be6fbe59ebcbcc710ba84",
 "assets/assets/graphics/Adam_circle.png": "cdc6d2d1bb12e805313b821b6d8e2a31",
 "assets/assets/graphics/bismillah.png": "6d226b3aef0e0a6037e9920f2cc7c7ff",
@@ -279,13 +279,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "288c6641419328964dc3269f18ac0c94
 "assets/assets/texts/03%2520Qisa%2520e%2520Hazrat%2520Abraham.txt": "02fa0674c06bfe4cd2b13f552848ae6a",
 "assets/assets/texts/04%2520Qisa%2520e%2520Hazrat%2520Ishaq%2520aur%2520Hazrat%2520Yaqoob.txt": "b5f233001547e677daf52c6f27c5879f",
 "assets/assets/texts/05%2520Qisa%2520e%2520Hazrat%2520Yousaf.txt": "be278e012129f205446044747960a41a",
-"assets/assets/texts/06%2520Qisa%2520e%2520Hazrat%2520Moosa.txt": "1a241cb968fd39a9af0dc809d7495058",
+"assets/assets/texts/06%2520Qisa%2520e%2520Hazrat%2520Moosa.txt": "47ee66640dabff41e3acdab0e8c9f626",
 "assets/assets/texts/09%2520Qisa%2520e%2520Hazrat%2520Younas.txt": "6582b5c85691349ba826f0c45d008934",
-"assets/assets/texts/10%2520Seerat%2520e%2520Hazrat%2520Essa.txt": "f922304f95eae2aa1a02e7f15365498a",
+"assets/assets/texts/10%2520Seerat%2520e%2520Hazrat%2520Essa.txt": "1900b4b944b8b3c2d9e1989c0599f588",
 "assets/FontManifest.json": "90b15cb88690ef5b589a99174865edfa",
 "assets/fonts/MaterialIcons-Regular.otf": "be67d0bee860782ec6a90cd96893f159",
-"assets/NOTICES": "9c2604d04da2794608571bf0e24d6dbc",
+"assets/NOTICES": "7c7dc37945762508cfa067c3cc2ccadc",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "33b7d9392238c04c131b6ce224e13711",
+"assets/packages/qisas_core/assets/text_rules.txt": "e26368a62e9ce952d3aaea3c77f04959",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/shaders/stretch_effect.frag": "40d68efbbf360632f614c731219e95f0",
 "canvaskit/canvaskit.js": "8331fe38e66b3a898c4f37648aaf7ee2",
@@ -302,14 +303,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "288c6641419328964dc3269f18ac0c94
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "241ca22d2319535088912b18220810fb",
+"flutter_bootstrap.js": "468da466c4641298ea52515651ebf87b",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "7b0b4a283e5ee36bcb84cd04410c5c5b",
 "/": "7b0b4a283e5ee36bcb84cd04410c5c5b",
-"main.dart.js": "5a28a71220978948d45643e6cac373aa",
+"main.dart.js": "8f9a47f26c11d5524afb1c156ffdbffa",
 "manifest.json": "c4db61f2155e58111fbd33f7fd492e0d",
 "splash/img/dark-1x.png": "6c971bd288138f9ff24980f25562bb72",
 "splash/img/dark-2x.png": "3d8d82e63165c3e1a1e2b48306222222",
@@ -319,7 +320,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "288c6641419328964dc3269f18ac0c94
 "splash/img/light-2x.png": "3d8d82e63165c3e1a1e2b48306222222",
 "splash/img/light-3x.png": "851edab5bf1e6f6e21553e2f55ad7be8",
 "splash/img/light-4x.png": "26a2421beb8f42d2493eb95491a68dbf",
-"version.json": "a0eb553b72228291cc9be89fbfac8545"};
+"version.json": "a5c442318c5dc4ca16528d50952d5c9a"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
